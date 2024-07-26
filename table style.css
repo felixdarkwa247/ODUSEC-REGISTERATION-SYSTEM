@@ -1,0 +1,48 @@
+caption{
+      color: yellow;
+      background-color: rgb(4, 3, 12);
+}
+thead{
+    text-transform: bold;
+    background-color: purple;
+}
+tbody{
+    background-color: rgb(9, 9, 244);
+}
+tfoot{
+      background-color: green;
+}
+th{
+    border: 5px;
+    border-color: orange;
+}
+td{
+    border-color: red;
+}
+table data{
+text-decoration-color: aqua;
+}
+button{
+    background-color: pink;
+    text-transform: capitalize;
+    text-emphasis-color: blue;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: right;
+    border-radius: 15px;
+    border-color: azure;   
+}
+nav,li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    cursor: pointer;
+}
+nav,li,a::after{
+    content: '';
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+    font-size: 15px;
+}
